@@ -1,25 +1,25 @@
 <!-- =========================
  SECTION: CLIENTS LOGOs
 ============================== -->
-<?php 
+<?php
 	$parallax_one_logos = get_theme_mod('parallax_one_logos_content',
 		json_encode(
-			array( 
-				array("image_url" => parallax_get_file('/images/companies/1.png') ,"link" => "#" ),
-				array("image_url" => parallax_get_file('/images/companies/2.png') ,"link" => "#" ),
-				array("image_url" => parallax_get_file('/images/companies/3.png') ,"link" => "#" ),
-				array("image_url" => parallax_get_file('/images/companies/4.png') ,"link" => "#" ),
-				array("image_url" => parallax_get_file('/images/companies/5.png') ,"link" => "#" ) 
+			array(
+				array("image_url" => parallax_get_file('/images/companies/9.png') ,"link" => "#" ),
+				array("image_url" => parallax_get_file('/images/companies/8.png') ,"link" => "#" ),
+				// array("image_url" => parallax_get_file('/images/companies/7.png') ,"link" => "#" ),
+				// array("image_url" => parallax_get_file('/images/companies/4.png') ,"link" => "#" ),
+				array("image_url" => parallax_get_file('/images/companies/7.png') ,"link" => "#" )
 			)
 		)
 	);
 	if(!empty($parallax_one_logos)){
 		$parallax_one_logos_decoded = json_decode($parallax_one_logos);
 		echo '<div class="clients white-bg" id="clients"><div class="container">';
-			echo '<ul class="client-logos">';					
+			echo '<ul class="client-logos">';
 			foreach($parallax_one_logos_decoded as $parallax_one_logo){
 				if(!empty($parallax_one_logo->image_url)){
-			
+
 					echo '<li>';
 					if(!empty($parallax_one_logo->link)){
 						echo '<a href="'.$parallax_one_logo->link.'" title="">';
@@ -30,11 +30,11 @@
 					}
 					echo '</li>';
 
-	
+
 				}
 			}
 			echo '</ul>';
 		echo '</div></div>';
 	}
 ?>
-	
+
