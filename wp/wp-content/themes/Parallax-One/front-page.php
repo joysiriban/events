@@ -24,7 +24,7 @@ if ( 'posts' == get_option( 'show_on_front' ) ) {
 			// 'sections/parallax_one_happy_customers_section',
 			'sections/parallax_one_ribbon_section',
 			// 'sections/parallax_one_latest_news_section',
-			'sections/parallax_one_contact_info_section',
+			// 'sections/parallax_one_contact_info_section',
 			'sections/parallax_one_map_section'));
 
 		if(!empty($sections_array)){

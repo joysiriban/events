@@ -1,7 +1,8 @@
 <!-- =========================
-INTERGEO MAPS 
+INTERGEO MAPS
 ============================== -->
 <?php
+    // echo "geo"; exit;
     $parallax_one_frontpage_map_shortcode = get_theme_mod('parallax_one_frontpage_map_shortcode');
     if( !empty($parallax_one_frontpage_map_shortcode) ){
 ?>
@@ -11,6 +12,6 @@ INTERGEO MAPS
                 <?php echo do_shortcode($parallax_one_frontpage_map_shortcode);?>
             </div>
         </div><!-- .container-fluid -->
-<?php   
+<?php
      }
 ?>
