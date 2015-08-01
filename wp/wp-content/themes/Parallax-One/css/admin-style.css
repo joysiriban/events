@@ -26,7 +26,7 @@ button.parallax_one_remove_field {
 button.parallax_one_general_control_remove_field {
 	width: 100%;
 	margin-top: 10px!important;
-	 
+
 }
 
 button.parallax_one_general_control_remove_field:hover{
@@ -105,4 +105,10 @@ button.parallax_one_general_control_remove_field:hover{
 
 .parallax_one_general_control_repeater_container .parallax-box-content-hidden{
     padding-top: 5px;
+}
+.div-center{
+	text-align: center;
+}
+.white{
+	color: white;
 }

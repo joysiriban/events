@@ -59,6 +59,15 @@
 								}
 							?>
 							<!-- /END BUTTON -->
+							<?php
+					if( is_active_sidebar( 'footer-area' ) ){
+				?>
+						<div class="white widget-box">
+							<?php
+								dynamic_sidebar( 'footer-area' );
+							?>
+						</div>
+						<?php } ?>
 
 						</div>
 						<!-- /END HEADNING AND BUTTONS -->
