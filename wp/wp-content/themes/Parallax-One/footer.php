@@ -44,6 +44,9 @@
 				?>
 
             </div><!-- .footer-widget-wrap -->
+            <div class="powered-by">
+            	&copy; 2015 Victor and Creslie
+	        </div>
 
 
 
