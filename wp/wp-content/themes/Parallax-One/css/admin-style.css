@@ -112,3 +112,7 @@ button.parallax_one_general_control_remove_field:hover{
 .white{
 	color: white;
 }
+.img-half{
+	width: 50%;
+	height: 50%;
+}
