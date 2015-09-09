@@ -14,13 +14,18 @@ if ( 'posts' == get_option( 'show_on_front' ) ) {
 
 	<div class="content-wrap">
 
+		<div style="text-align:center">
+			[vimeo]137737853[/vimeo]
+			[ylwm_vimeo]137737853[/ylwm_vimeo]
+</div>
+
 	<?php
 
 		$sections_array = apply_filters("parallax_one_pro_sections_filter",
 			array('sections/parallax_one_logos_section',
 				// 'sections/parallax_one_our_services_section',
+			'sections/parallax_one_our_team_section',
 			'sections/parallax_one_our_story_section',
-			// 'sections/parallax_one_our_team_section',
 			// 'sections/parallax_one_happy_customers_section',
 			'sections/parallax_one_ribbon_section',
 			// 'sections/parallax_one_latest_news_section',

@@ -13,16 +13,8 @@
         <div class="container">
             <div class="footer-widget-wrap">
 
+
 				<?php
-					if( is_active_sidebar( 'footer-area-2' ) ){
-				?>
-						<div class="col-md-3 col-sm-6 col-xs-12 widget-box">
-							<?php
-								dynamic_sidebar( 'footer-area-2' );
-							?>
-						</div>
-				<?php
-					}
 					if( is_active_sidebar( 'footer-area-3' ) ){
 				?>
 						<div class="col-md-3 col-sm-6 col-xs-12 widget-box">
