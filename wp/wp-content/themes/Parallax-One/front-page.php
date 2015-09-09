@@ -14,11 +14,6 @@ if ( 'posts' == get_option( 'show_on_front' ) ) {
 
 	<div class="content-wrap">
 
-		<div style="text-align:center">
-			[vimeo]137737853[/vimeo]
-			[ylwm_vimeo]137737853[/ylwm_vimeo]
-</div>
-
 	<?php
 
 		$sections_array = apply_filters("parallax_one_pro_sections_filter",
